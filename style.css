@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f6f1;
+    color: #292929;
+    line-height: 1.6;
+}
+
+header {
+    background: #173d32;
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+nav {
+    background: #c49a54;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #173d32;
+}
+
+section {
+    padding: 55px 10%;
+}
+
+section h2 {
+    color: #173d32;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+#home {
+    text-align: center;
+    padding: 90px 20px;
+    background: #eee8dc;
+}
+
+#home p {
+    font-size: 18px;
+}
+
+#products ul {
+    padding-left: 25px;
+}
+
+#products li {
+    margin: 12px 0;
+}
+
+#contact {
+    background: #e9e4d9;
+}
+
+#contact a {
+    display: inline-block;
+    background: #173d32;
+    color: white;
+    padding: 12px 22px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#contact a:hover {
+    background: #c49a54;
+}
+
+footer {
+    background: #173d32;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    section {
+        padding: 40px 7%;
+    }
+}
+.hero-content {
+    max-width: 750px;
+    margin: auto;
+}
+
+.hero-tag {
+    color: #b1843d;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+#home h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    margin-bottom: 20px;
+}
+
+.shop-button {
+    display: inline-block;
+    background: #173d32;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.shop-button:hover {
+    background: #c49a54;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+    #home h2 {
+        font-size: 34px;
+    }
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.product-card {
+    background: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.product-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    color: #173d32;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    color: #666;
+}
+
+@media (max-width: 800px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.about-content {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.about-content p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 18px;
+    line-height: 1.9;
+}
+
+#about {
+    background: #ffffff;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.contact-content h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-details {
+    background: white;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.contact-details p {
+    margin: 12px 0;
+}
+
+.contact-content a {
+    display: inline-block;
+    background: #173d32;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-content a:hover {
+    background: #c49a54;
+}
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
